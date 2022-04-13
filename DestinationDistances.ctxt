@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=DestinationDistances
+comment0.text=\r\n\ DestinationDistances\ class\ controls\ the\ main\ mathematical\ functionality\ of\ the\ calculation\ for\ the\ five\ closest\ locations\ (pubs\ or\r\n\ tourist\ attractions\ relevant\ to\ a\ property\ selected\ by\ the\ user).\r\n\ \r\n\ This\ class\ creates\ an\ array\ list\ of\ DistanceDestinationPair,\ adding\ all\ the\ destinations\ from\ the\ passed\ DestinationListing\ list\r\n\ and\ their\ corresponding\ calculated\ distances\ from\ the\ selected\ property\ by\ the\ user\ as\ a\ reference\ point.\r\n\ \r\n\ This\ class\ is\ then\ sorted\ and\ only\ the\ first\ five\ elements\ are\ returned\ which\ represent\ the\ five\ closest\ destinations\ to\ the\r\n\ selected\ property.\r\n\r\n\ @author\ Adam\ Murray\ (K21003575)\r\n\ @author\ Augusto\ Favero\ (K21059800)\r\n\ @author\ Mathew\ Tran\ (K21074020)\r\n\ @author\ Tony\ Smith\ (K21064940)\r\n\ @version\ 1.0.0\r\n
+comment1.params=filteredDestinations\ selectedProperty
+comment1.target=DestinationDistances(java.util.List,\ AirbnbListing)
+comment1.text=\r\n\ Creates\ a\ new\ array\ list\ for\ all\ the\ destination\ and\ distance\ pairs\ for\ all\ relevant\ destinations.\r\n\ @param\ filteredDestinations\ The\ list\ of\ filtered\ destinations\ that\ fit\ the\ user\ selected\ preferences.\r\n\ @param\ selectedProperty\ The\ property\ selected\ by\ the\ user.\r\n
+comment2.params=
+comment2.target=java.util.ArrayList\ getFiveSmallest()
+comment2.text=\r\n\ Converts\ the\ destinations\ ArrayList<DestinationPair>\ to\ an\ array\ which\ is\ sorted\ using\ a\ merge\ sort\ and\ the\ first\ five\r\n\ elements\ in\ the\ list\ are\ retrieved.\ If\ there\ are\ less\ then\ five\ locations,\ all\ of\ them\ are\ displayed,\ otherwise\ the\ first\r\n\ five\ are\ chosen\ which\ represent\ the\ five\ closest\ destinations.\r\n\ @return\ Containing\ the\ up\ to\ five\ closest\ destinations\ relative\ to\ the\ selected\ property.\r\n
+comment3.params=filteredDestinations\ selectedProperty
+comment3.target=void\ addDestinations(java.util.List,\ AirbnbListing)
+comment3.text=\r\n\ The\ filtered\ destinations\ are\ iterated\ over\ and\ their\ relative\ distance\ is\ calculated\ using\ the\ selected\ property\ as\ a\r\n\ reference\ point.\r\n\ @param\ filteredDestinations\ The\ list\ of\ filtered\ destinations\ that\ fit\ the\ user\ selected\ preferences.\r\n\ @param\ selectedProperty\ The\ property\ selected\ by\ the\ user.\r\n
+comment4.params=propertyLong\ venueLong\ propertyLat\ venueLat
+comment4.target=int\ calculateDistance(double,\ double,\ double,\ double)
+comment4.text=\r\n\ Given\ the\ property\ and\ destination\ longitude\ and\ latitude\ calculateDistance()\ calculates\ the\ distance\ between\ them.\r\n\ @param\ propertyLong\ The\ longitude\ of\ the\ property.\r\n\ @param\ venueLong\ The\ longitude\ of\ the\ venue.\r\n\ @param\ propertyLat\ The\ latitude\ of\ the\ property.\r\n\ @param\ venueLat\ The\ latitude\ of\ the\ venue.\r\n\ @return\ The\ distance\ between\ the\ two\ locations\ in\ KM\ as\ an\ int.\r\n
+comment5.params=a\ n
+comment5.target=void\ mergeSort(DistanceDestinationPair[],\ int)
+comment5.text=\r\n\ Merge\ sort\ algorithm\ that\ sorts\ the\ inputted\ array\ in\ ascending\ order,\ sorting\ the\ DistanceDestinationPair\ object\ from\r\n\ shortest\ distance\ to\ longest\ distance.\r\n
+comment6.params=a\ l\ r\ left\ right
+comment6.target=void\ merge(DistanceDestinationPair[],\ DistanceDestinationPair[],\ DistanceDestinationPair[],\ int,\ int)
+comment6.text=\r\n\ Reference\:\ https\://www.baeldung.com/java-merge-sort\r\n
+numComments=7

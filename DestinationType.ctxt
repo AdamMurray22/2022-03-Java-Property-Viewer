@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DestinationType
+comment0.text=\r\n\ Enumeration\ class\ DestinationType\ -\ to\ represent\ the\ two\ types\ of\ destinations\ that\ can\ be\ loaded\ from\ the\ two\ different\ csv\ files.\r\n\ Depending\ on\ which\ type\ of\ destination\ is\ passed\ to\ the\ .getDestinations()\ the\ DestinationLoader\ wil\ return\ the\ corresponding\ list\ containing\ all\ the\ loaded\ destinations\ from\ the\ relevant\ csv\ file\r\n\r\n\ @author\ Adam\ Murray\ (K21003575)\r\n\ @author\ Augusto\ Favero\ (K21059800)\r\n\ @author\ Mathew\ Tran\ (K21074020)\r\n\ @author\ Tony\ Smith\ (K21064940)\r\n\ @version\ 1.0.0\r\n
+comment1.params=type
+comment1.target=java.util.List\ getDestinations(DestinationType)
+comment1.text=\r\n\ A\ method\ that\ returns\ the\ corresponding\ list\ of\ destinations\ depending\ on\ which\ enum\ type\ is\ passed\ into\ the\ function\r\n\ @param\ DestinationType,\ either\ PUB,\ ATTRACTION,\ to\ return\ the\ relevant\ list\ of\ destinations\ that\ has\ been\ loaded\ from\ the\ csv\r\n\ @return\ List<DestinationListing>,\ a\ list\ containing\ all\ the\ loaded\ data\ for\ the\ passed\ destination\ type\r\n
+numComments=2
