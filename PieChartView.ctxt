@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PieChartView
+comment0.text=\r\n\ Responsible\ for\ setting\ up\ what\ the\ pie\ chart\ displayed\ looks\ like.\r\n\r\n\ @author\ Adam\ Murray\ (K21003575)\r\n\ @author\ Augusto\ Favero\ (K21059800)\r\n\ @author\ Mathew\ Tran\ (K21074020)\r\n\ @author\ Tony\ Smith\ (K21064940)\r\n\ @version\ 1.0.0\r\n
+comment1.params=
+comment1.target=javafx.scene.layout.AnchorPane\ setUpPieChart()
+comment1.text=\r\n\ Creates\ pie\ chart\ by\ returning\ the\ AnchorPane\ in\ which\ it\ is\ set\ up.\r\n\ @return\ AnchorPane\r\n\ @throws\ IOException\ The\ FXML\ file\ couldn't\ be\ loaded.\r\n
+comment2.params=values\ symbol
+comment2.target=void\ populatePieChart(int[],\ java.lang.String)
+comment2.text=\r\n\ Populates\ the\ pie\ chart\ with\ the\ values\ from\ the\ int\ array\ values,\ and\ depending\ on\ what\ the\ data\ shows\ (either\ \u00A3\ for\ the\r\n\ prices\ of\ properties\ or\ no\ symbol\ for\ numbers).\r\n\ @param\ values\ The\ values\ in\ the\ piechart.\r\n\ @param\ symbol\ The\ symbol.\r\n
+numComments=3

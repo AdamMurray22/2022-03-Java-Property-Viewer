@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MapController
+comment0.text=\r\n\ Responsible\ for\ setting\ up\ and\ maintaining\ the\ borough\ buttons\ in\ the\ map.\r\n\r\n\ @author\ Adam\ Murray\ (K21003575)\r\n\ @author\ Augusto\ Favero\ (K21059800)\r\n\ @author\ Mathew\ Tran\ (K21074020)\r\n\ @author\ Tony\ Smith\ (K21064940)\r\n\ @version\ 1.0.0\r\n
+comment1.params=
+comment1.target=void\ initialize()
+comment1.text=\r\n\ Make\ sure\ the\ scroll\ pane\ has\ the\ same\ size\ as\ the\ root\ and\ initialize\ the\ list\ of\ buttons.\r\n
+comment2.params=
+comment2.target=void\ createButtons()
+comment2.text=\r\n\ Create\ the\ borough\ buttons.\r\n
+comment3.params=
+comment3.target=void\ updateButtons()
+comment3.text=\r\n\ Update\ the\ borough\ buttons.\r\n
+comment4.params=
+comment4.target=void\ bindScrollPaneSizeToRootSize()
+comment4.text=\r\n\ Bind\ the\ size\ of\ the\ scroll\ pane\ to\ the\ size\ of\ the\ root\ so\ that\ they\ are\ both\ always\ the\ same\ size.\r\n
+numComments=5

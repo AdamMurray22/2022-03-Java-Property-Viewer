@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PriceType
+comment0.text=\r\n\ PriceType\ class\ is\ used\ to\ represent\ the\ possible\ price\ values\ that\ different\ DestinationListing\ objects\ can\ take.\ Specifically\r\n\ pubs\ can\ have\ a\ price\ value\ of\ (\u00A3\ or\ \u00A3\u00A3\ or\ \u00A3\u00A3\u00A3)\ whilst\ attractions\ can\ have\ ticket\ prices\ (free,\ \u00A32.50\ -\ \u00A35.00,\ \u00A35.00\ -\ \u00A37.00,\r\n\ \u00A37.00\ -\ \u00A39.00)\r\n\ \r\n\ Makes\ extension\ to\ new\ types\ of\ prices\ possible.\r\n\r\n\ @author\ Adam\ Murray\ (K21003575)\r\n\ @author\ Augusto\ Favero\ (K21059800)\r\n\ @author\ Mathew\ Tran\ (K21074020)\r\n\ @author\ Tony\ Smith\ (K21064940)\r\n\ @version\ 1.0.0\r\n
+comment1.params=
+comment1.target=PriceType()
+comment1.text=\r\n\ Constructor\ that\ intialises\ the\ destinationPrices\ list,\ without\ adding\ anything,\ this\ behaviour\ is\ delegated\ to\ concrete\ classes\r\n
+comment2.params=priceString
+comment2.target=boolean\ checkPriceValid(java.lang.String)
+comment2.text=\r\n\ Checks\ whether\ the\ entered\ string\ is\ of\ valid\ price\ type,\ this\ depends\ on\ the\ concrete\ implementation\ of\ this\ class\r\n\ @param\ priceString\ A\ string\ whose\ validity\ in\ relation\ to\ the\ concrete\ price\ type\ needs\ to\ be\ checked\r\n\ @return\ Whetherthe\ entered\ string\ is\ of\ valid\ price\ type.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getValidPrice()
+comment3.text=\r\n\ @return\ The\ first\ valid\ price\ string\ from\ the\ list\ of\ valid\ price\ strings.\r\n
+comment4.params=
+comment4.target=java.util.List\ getPrices()
+comment4.text=\r\n\ @return\ The\ list\ of\ valid\ prices\ (depending\ on\ the\ implementation).\r\n
+numComments=5

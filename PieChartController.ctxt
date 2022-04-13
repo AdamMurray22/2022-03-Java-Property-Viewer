@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PieChartController
+comment0.text=\r\n\ PieChartController\ class\ controls\ the\ creation\ of\ the\ PieChartData\ to\ add\ to\ the\ pieChart\ object.\ The\ PieChartData\ is\ composed\ of\r\n\ a\ key\ which\ represents\ the\ string\ for\ an\ arbitrary\ range\ (\u00A310\ \=<\ x\ <\ 20)\ whilst\ the\ value\ pair\ is\ the\ amount\ of\ data\ that\ is\r\n\ present\ in\ that\ range.\r\n\r\n\ @author\ Adam\ Murray\ (K21003575)\r\n\ @author\ Augusto\ Favero\ (K21059800)\r\n\ @author\ Mathew\ Tran\ (K21074020)\r\n\ @author\ Tony\ Smith\ (K21064940)\r\n\ @version\ 1.0.0\r\n
+comment1.params=attributeValues
+comment1.target=void\ setup(java.util.HashMap)
+comment1.text=\r\n\ Sets\ up\ the\ piechart\ by\ adding\ to\ the\ pieChart\ object\ a\ set\ of\ key-value\ pairs\ which\ are\ a\ string\ to\ represent\ a\ label,\ and\r\n\ the\ value\ which\ is\ the\ amount\ of\ data\ that\ should\ be\ stored\ in\ that\ segment\ of\ the\ piechart.\r\n\ @param\ attributeValues\ The\ number\ of\ entities\ for\ each\ range.\r\n
+numComments=2
