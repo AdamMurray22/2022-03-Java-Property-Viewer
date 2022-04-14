@@ -1,8 +1,8 @@
 
 
-Right-click on the `App` class and click 'Run JavaFX Application'.
+Launch through class App
 
-## 🐸 Collaborators
+## Collaborators
 - [Adam Murray](https://github.com/AdamMurray22)
 - [Augusto Favero](https://github.com/AFaverooo)
 - [Mathew Tran](https://github.com/pluc0)
